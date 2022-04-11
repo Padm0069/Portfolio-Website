@@ -2,30 +2,6 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon"
-    href="https://cdn.bio.link/uploads/profile_pictures/2021-09-01/tE8wirBYKrXgipi0HP0GK69YD9TzfsDY.png"
-    type="image/webp">
-  <link rel="icon" href="https://cdn.bio.link/uploads/profile_pictures/2021-09-01/tE8wirBYKrXgipi0HP0GK69YD9TzfsDY.png"
-    type="image/webp">
-  <meta name="description"
-    content="Pranay is currently a second year undergrad from India. He is enthusiastic about web development and Open-Source." />
-  <meta property="og:title" content="Pranay Gupta" />
-  <meta property="og:url" content="https://thepranaygupta.github.io/" />
-  <meta property="og:description"
-    content="Pranay is currently a second year undergrad from India. He is enthusiastic about web development and Open-Source." />
-  <meta property="og:image:secure_url"
-    content="https://cdn.bio.link/uploads/profile_pictures/2021-09-01/tE8wirBYKrXgipi0HP0GK69YD9TzfsDY.png" />
-  <meta property="og:image"
-    content="https://cdn.bio.link/uploads/profile_pictures/2021-09-01/tE8wirBYKrXgipi0HP0GK69YD9TzfsDY.png" />
-  <meta property="profile:username" content="thepranaygupta" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Pranay Gupta" />
-  <meta name="twitter:image"
-    content="https://cdn.bio.link/uploads/profile_pictures/2021-09-01/tE8wirBYKrXgipi0HP0GK69YD9TzfsDY.png" />
-  <meta name="twitter:url" content="https://thepranaygupta.github.io/" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="./assets/css/style.css" />
@@ -35,6 +11,57 @@
 </head>
 
 <body>
+   <!-- Header -->
+   <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav_logo">Padm</a>
+
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list grid">
+          <li class="nav_item">
+            <a href="#home" class="nav_link active-link">
+              <i class="uil uil-estate nav_icon"></i> Home
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">
+              <i class="uil uil-user nav_icon"></i> About
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#skills" class="nav_link">
+              <i class="uil uil-file-alt nav_icon"></i> Skills
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#qualification" class="nav_link">
+              <i class="uil uil-graduation-cap nav_icon"></i> Qualifications
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#projects" class="nav_link">
+              <i class="uil uil-scenery nav_icon"></i> Projects
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact" class="nav_link">
+              <i class="uil uil-message nav-icon nav_icon"></i> Contact Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav_close" id="nav-close"></i>
+      </div>
+
+      <div class="nav_btns">
+        <!-- Change Theme -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <!-- Main -->
   <main class="main">
@@ -62,7 +89,7 @@
 
           <div class="home_img">
             
-            <img class="home_blob-img"src="./assets/img/1.jpeg">
+            <img class="home_blob-img"src="./assets/img/icon.png">
            </div>
 
           <div class="home_data">
@@ -87,7 +114,7 @@
       <h2 class="section_title">About Me</h2>
       <span class="section_subtitle">My introduction</span>
       <div class="about_container container grid">
-        <img src="./assets/img/about.png" alt="" class="about_img" />
+        <img src="./assets/img/1.jpeg" alt="" class="about_img" />
         <div class="about_data">
           <p class="about_description">
             Hi! 👋  I am Padm Keshav, A college Second Year CS Student seeking and learning various fields of tech, 
@@ -430,14 +457,14 @@
 
           <!-- Project 4 -->
           <div class="portfolio_content grid swiper-slide">
-            <img src="./assets/img/portfolio-preview.gif" alt="" class="portfolio_img">
+            <img src="./assets/img/Kuebiko-preview.gif" alt="" class="portfolio_img">
 
             <div class="portfolio_data">
               <h3 class="portfolio_title">
-                Personal Portfolio Website
+                Kuebiko - A novel reader and writer Website
               </h3>
               <p class="portfolio_description">
-                My Personal Portfolio Website made using only HTML, CSS and JS with a clean and minimal UI.
+                A novel Reader and writer website build with React.js, Node,express and MongoDB.
               </p>
               <a href="#" class="button button-flex button-small portfolio_button" target="_blank">
                 Check out
@@ -449,17 +476,17 @@
           <!-- Project 3 -->
           <div class="portfolio_content grid swiper-slide">
             <img
-              src="https://user-images.githubusercontent.com/64855541/147368869-090d3db8-305c-4a07-bd01-85daa3c32ebc.png"
+              src="./assets/img/AI Gym.jpeg"
               alt="" class="portfolio_img">
 
             <div class="portfolio_data">
               <h3 class="portfolio_title">
-                Windows 11 UI Clone
+                AI Gym Trainer
               </h3>
               <p class="portfolio_description">
-                A Windows 11 UI Clone made using only HTML, CSS & JS.
+                An AI based gym trainer algorithm made using Mediapipe library pose detection Algo.
               </p>
-              <a href="https://thepranaygupta.github.io/Windows-11-UI"
+              <a href="https://github.com/Padm0069/AI-Gym-Trainer"
                 class="button button-flex button-small portfolio_button" target="_blank">
                 Check out
                 <i class="uil uil-arrow-right button_icon"></i>
@@ -470,17 +497,17 @@
           <!-- Project 2 -->
           <div class="portfolio_content grid swiper-slide">
             <img
-              src="https://user-images.githubusercontent.com/64855541/147369544-ead2ec26-e79b-46b9-99f4-b0ddca930b8f.png"
+              src="./assets/img/Portfolio.gif"
               alt="" class="portfolio_img">
 
             <div class="portfolio_data">
               <h3 class="portfolio_title">
-                White Board
+                Personal Portfolio Website
               </h3>
               <p class="portfolio_description">
-                A basic whiteboard built using canvas tag with drawing, undo and clear canvas features.
+                My Personal Portfolio Website made using only HTML, CSS and JS with a clean and minimal UI.
               </p>
-              <a href="https://thepranaygupta.github.io/White-Board/"
+              <a href="#"
                 class="button button-flex button-small portfolio_button" target="_blank">
                 Check out
                 <i class="uil uil-arrow-right button_icon"></i>
@@ -532,17 +559,17 @@
 
       <div class="contact_container container grid">
         <div>
-          <a href="mailto:pgupta@duck.com" target="_blank">
+          <a href="mailto:kesavpadm2003@gmail.com" target="_blank">
             <div class="contact_info">
               <i class="uil uil-envelope-alt contact_icon"></i>
               <div>
                 <h3 class="contact_title">Email</h3>
-                <span class="contact_subtitle">pgupta@duck.com</span>
+                <span class="contact_subtitle">kesavpadm2003@gmail.com</span>
               </div>
             </div>
           </a>
 
-          <a href="https://calendly.com/thepranaygupta" target="_blank">
+          <a href="https://calendly.com/padm" target="_blank">
             <div class="contact_info">
               <i class="uil uil-calendar-alt contact_icon"></i>
               <div>
@@ -552,22 +579,22 @@
             </div>
           </a>
 
-          <a href="https://twitter.com/ThePranayGupta/" target="_blank">
+          <a href="https://twitter.com/KesavPadm" target="_blank">
             <div class="contact_info">
               <i class="uil uil-twitter-alt contact_icon"></i>
               <div>
                 <h3 class="contact_title">Twitter</h3>
-                <span class="contact_subtitle">@ThePranayGupta</span>
+                <span class="contact_subtitle">@KesavPadm</span>
               </div>
             </div>
           </a>
 
-          <a href="https://goo.gl/maps/AbkrLpc6JepJcrSL8" target="_blank">
+          <a href="https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1HSvApgOlKOg82MJu1PJb-QHHqPY&ll=12.931957291777179%2C79.148721&z=15" target="_blank">
             <div class="contact_info">
               <i class="uil uil-location-point contact_icon"></i>
               <div>
                 <h3 class="contact_title">Location</h3>
-                <span class="contact_subtitle">Kolkata, India</span>
+                <span class="contact_subtitle">Vellore, India</span>
               </div>
             </div>
           </a>
@@ -612,8 +639,8 @@
     <div class="footer_bg">
       <div class="footer_container container grid">
         <div>
-          <h1 class="footer_title">Pranay Gupta</h1>
-          <span class="footer_subtitle">Frontend Developer</span>
+          <h1 class="footer_title">Padm Keshav</h1>
+          <span class="footer_subtitle">Full Stack Developer</span>
         </div>
 
         <ul class="footer_links">
@@ -629,19 +656,19 @@
         </ul>
 
         <div class="footer_socials">
-          <a href="https://www.linkedin.com/in/thepranaygupta/" target="_blank" class="footer_social">
+          <a href="https://www.linkedin.com/in/padm-keshav-45289a1b8/" target="_blank" class="footer_social">
             <i class="uil uil-linkedin-alt"></i>
           </a>
-          <a href="https://twitter.com/ThePranayGupta/" target="_blank" class="footer_social">
+          <a href="https://twitter.com/KesavPadm" target="_blank" class="footer_social">
             <i class="uil uil-twitter-alt"></i>
           </a>
-          <a href="https://www.instagram.com/pranayguptaa/" target="_blank" class="footer_social">
+          <a href="https://www.instagram.com/padmkesav/" target="_blank" class="footer_social">
             <i class="uil uil-instagram"></i>
           </a>
         </div>
       </div>
 
-      <p class="footer_copy">&#169; Pranay Gupta. All rights reserved</p>
+      <p class="footer_copy">&#169; Padm Keshav. All rights reserved</p>
     </div>
   </footer>
 

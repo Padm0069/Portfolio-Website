@@ -629,6 +629,7 @@ background-color: #00092C;
 }
 
 /* CONTACT ME  */
+
 .contact_container {
   row-gap: 3rem;
 }
@@ -690,6 +691,7 @@ background-color: #00092C;
 /* FOOTER  */
 .footer {
   padding-top: 2rem;
+  background-color: #00092C;
 }
 
 .footer_container {
@@ -739,7 +741,7 @@ background-color: #00092C;
 .footer_copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: #fff;
   margin-top: var(--mb-3);
 }
 

@@ -138,10 +138,12 @@ button {
 }
 
 .section_title {
+  color: #4700D8;
   font-size: var(--h1-font-size);
 }
 
 .section_subtitle {
+  color: #fff;
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
@@ -174,7 +176,7 @@ button {
 }
 #projects{
   padding-bottom: 100px;
-  background-color: #E83A14;
+  background-color: #00092C;
 }
 
 /* NAVBAR */
@@ -377,6 +379,11 @@ button {
 }
 
 /* ABOUT */
+
+#about{
+background-color: #00092C;
+}
+
 .about_img {
   width: 1500px;
   height: 400px;
@@ -386,6 +393,7 @@ button {
 }
 
 .about_description {
+  color: #fff;
   text-align: center;
   margin-bottom: var(--mb-1-5);
 }
@@ -554,6 +562,10 @@ button {
 }
 
 /* PORTFOLIO  */
+
+.portfolio_description{
+  color: #fff;
+}
 .portfolio_container {
   overflow: initial;
 }

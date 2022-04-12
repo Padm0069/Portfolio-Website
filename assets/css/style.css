@@ -172,6 +172,10 @@ button {
   z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
+#projects{
+  padding-bottom: 100px;
+  background-color: #E83A14;
+}
 
 /* NAVBAR */
 .nav {

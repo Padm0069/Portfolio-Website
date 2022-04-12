@@ -14,8 +14,8 @@
 
 <br/>
 
-<a href="https://github.com/thepranaygupta/thepranaygupta.github.io"><img src="https://sloc.xyz/github/thepranaygupta/thepranaygupta.github.io" alt="Total lines"></a>
-<a href="https://github.com/thepranaygupta/thepranaygupta.github.io"><img src="https://visitor-badge.laobi.icu/badge?page_id=thepranaygupta/thepranaygupta.github.io" alt="Number of Visitors"></a>
+<a href="https://padm0069.github.io/Portfolio-Website/"><img src="https://sloc.xyz/github/thepranaygupta/thepranaygupta.github.io" alt="Total lines"></a>
+<a href="https://padm0069.github.io/Portfolio-Website/"><img src="https://visitor-badge.laobi.icu/badge?page_id=thepranaygupta/thepranaygupta.github.io" alt="Number of Visitors"></a>
 <a href="https://github.com/thepranaygupta/thepranaygupta.github.io/stargazers"><img src="https://img.shields.io/github/stars/thepranaygupta/thepranaygupta.github.io" alt="github stars"></a>
 <a href="https://github.com/thepranaygupta/thepranaygupta.github.io/network/members"><img src="https://img.shields.io/github/forks/thepranaygupta/thepranaygupta.github.io" alt="github forks"></a>
 <a href="https://thepranaygupta.github.io/"><img src="https://img.shields.io/badge/website-up-yellow" alt="website up"></a>

@@ -7,7 +7,7 @@
 </h2>
 
 <div align="center">
-  <a href="https://thepranaygupta.github.io/">
+  <a href="https://padm0069.github.io/Portfolio-Website/">
     <img alt="Mockup" src="https://user-images.githubusercontent.com/64855541/148080556-ec9d5062-1092-4bd4-ba12-82a153e32985.png" />
   </a>
 </div>
